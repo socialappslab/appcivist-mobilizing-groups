@@ -1,29 +1,29 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/liyifan/Documents/2016%20Spring/appcivist-mobilization/appcivist-mobilization/project/project/}appcivist-mobilization-build-build...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#appcivist-mobilization-build-build;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/project/project/}appcivist-mobilizing-groups-build-build...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55a777e3[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f9e2456[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.6] org.scala-lang#scala-library;2.10.6[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.11 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.11 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.11[0m
@@ -150,9 +150,9 @@
 [0m[[0mdebug[0m] [0m	found jline#jline;2.13 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.11 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.11[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.11 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->compile(*)][0m
@@ -859,17 +859,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
@@ -939,7 +939,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [runtime->compile][0m
@@ -1486,22 +1486,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
@@ -1571,7 +1571,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [runtime->compile][0m
@@ -2118,18 +2118,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilization-build-build;0.1-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->default][0m
@@ -2147,8 +2147,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#jline;2.10.6 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}[0m
@@ -2161,11 +2161,11 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.6->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilization-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar[0m
@@ -2221,19 +2221,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1683ms :: artifacts dl 42ms[0m
-[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilization-build-build;0.1-SNAPSHOT compile produced in /Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/project/project/target/resolution-cache/reports/default-appcivist-mobilization-build-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilization-build-build;0.1-SNAPSHOT runtime produced in /Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/project/project/target/resolution-cache/reports/default-appcivist-mobilization-build-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilization-build-build;0.1-SNAPSHOT test produced in /Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/project/project/target/resolution-cache/reports/default-appcivist-mobilization-build-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilization-build-build;0.1-SNAPSHOT provided produced in /Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/project/project/target/resolution-cache/reports/default-appcivist-mobilization-build-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilization-build-build;0.1-SNAPSHOT optional produced in /Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/project/project/target/resolution-cache/reports/default-appcivist-mobilization-build-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilization-build-build;0.1-SNAPSHOT compile-internal produced in /Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/project/project/target/resolution-cache/reports/default-appcivist-mobilization-build-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilization-build-build;0.1-SNAPSHOT runtime-internal produced in /Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/project/project/target/resolution-cache/reports/default-appcivist-mobilization-build-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilization-build-build;0.1-SNAPSHOT test-internal produced in /Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/project/project/target/resolution-cache/reports/default-appcivist-mobilization-build-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilization-build-build;0.1-SNAPSHOT plugin produced in /Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/project/project/target/resolution-cache/reports/default-appcivist-mobilization-build-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilization-build-build;0.1-SNAPSHOT sources produced in /Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/project/project/target/resolution-cache/reports/default-appcivist-mobilization-build-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilization-build-build;0.1-SNAPSHOT docs produced in /Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/project/project/target/resolution-cache/reports/default-appcivist-mobilization-build-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilization-build-build;0.1-SNAPSHOT pom produced in /Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/project/project/target/resolution-cache/reports/default-appcivist-mobilization-build-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilization-build-build;0.1-SNAPSHOT scala-tool produced in /Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/project/project/target/resolution-cache/reports/default-appcivist-mobilization-build-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1683ms resolve - 42ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2151ms :: artifacts dl 54ms[0m
+[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT compile produced in /Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/project/project/target/resolution-cache/reports/default-appcivist-mobilizing-groups-build-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT runtime produced in /Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/project/project/target/resolution-cache/reports/default-appcivist-mobilizing-groups-build-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT test produced in /Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/project/project/target/resolution-cache/reports/default-appcivist-mobilizing-groups-build-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT provided produced in /Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/project/project/target/resolution-cache/reports/default-appcivist-mobilizing-groups-build-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT optional produced in /Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/project/project/target/resolution-cache/reports/default-appcivist-mobilizing-groups-build-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT compile-internal produced in /Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/project/project/target/resolution-cache/reports/default-appcivist-mobilizing-groups-build-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT runtime-internal produced in /Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/project/project/target/resolution-cache/reports/default-appcivist-mobilizing-groups-build-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT test-internal produced in /Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/project/project/target/resolution-cache/reports/default-appcivist-mobilizing-groups-build-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT plugin produced in /Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/project/project/target/resolution-cache/reports/default-appcivist-mobilizing-groups-build-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT sources produced in /Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/project/project/target/resolution-cache/reports/default-appcivist-mobilizing-groups-build-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT docs produced in /Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/project/project/target/resolution-cache/reports/default-appcivist-mobilizing-groups-build-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT pom produced in /Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/project/project/target/resolution-cache/reports/default-appcivist-mobilizing-groups-build-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#appcivist-mobilizing-groups-build-build;0.1-SNAPSHOT scala-tool produced in /Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/project/project/target/resolution-cache/reports/default-appcivist-mobilizing-groups-build-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (2151ms resolve - 54ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

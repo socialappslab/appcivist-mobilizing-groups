@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/conf/routes
-// @DATE:Mon Apr 04 15:34:17 PDT 2016
+// @SOURCE:/Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/conf/routes
+// @DATE:Mon Apr 04 16:29:28 PDT 2016
 
 
 package router {

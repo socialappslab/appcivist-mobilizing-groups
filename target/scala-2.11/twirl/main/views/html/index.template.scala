@@ -64,8 +64,8 @@ Seq[Any](format.raw/*5.19*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Sat Mar 26 14:10:15 PDT 2016
-                  SOURCE: /Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/app/views/index.scala.html
+                  DATE: Mon Apr 04 16:29:29 PDT 2016
+                  SOURCE: /Users/Amna/Desktop/CITRIS/appcivist-mobilizing-groups/app/views/index.scala.html
                   HASH: 40a7a2f7caa34d9844dcdf863134f543db76115e
                   MATRIX: 834->95|946->112|975->312|1003->314|1035->337|1075->339|1108->468|1140->474|1155->480|1209->513|1242->516
                   LINES: 30->5|35->5|37->11|38->12|38->12|38->12|40->17|41->18|41->18|41->18|43->20

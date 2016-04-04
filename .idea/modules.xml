@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/appcivist-mobilizing-groups.iml" filepath="$PROJECT_DIR$/appcivist-mobilizing-groups.iml" />
+      <module fileurl="file://$PROJECT_DIR$/target/scala-2.11/routes/routes.iml" filepath="$PROJECT_DIR$/target/scala-2.11/routes/routes.iml" />
     </modules>
   </component>
 </project>

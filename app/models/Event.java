@@ -11,9 +11,9 @@ public class Event {
 	private String id;
 
 	public Event(String eventTitle, Date eventStartTime, String eventAddress, String eventId){
-		self.title = eventTitle;
-		self.startTime = eventStartTime;
-		self.address = eventAddress;
-		self.id = eventId;
+		this.title = eventTitle;
+		this.startTime = eventStartTime;
+		this.address = eventAddress;
+		this.id = eventId;
 	}
 }
