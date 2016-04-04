@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/conf/application.conf,/Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/conf/logback.xml,/Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/conf/routes,/Users/liyifan/Documents/2016 Spring/appcivist-mobilization/appcivist-mobilization/target/scala-2.11/classes/routes)[0m
