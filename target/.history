@@ -15,3 +15,9 @@ compile
 git status
 compile
 git status
+compile
+run
+compile
+run evicted
+evicted
+compile
