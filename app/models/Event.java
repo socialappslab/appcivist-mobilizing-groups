@@ -15,8 +15,15 @@ public class Event extends Model {
 	@Constraints.Required
 	public String title;
 
-	@Formats.DateTime(pattern="MM/dd/yyyy HH:mm:ss")
+
+	@Formats.DateTime(pattern= "MM/dd/yyyy HH:mm:ss")
+
 	public Date startTime;
+
+	@Formats.DateTime(pattern= "MM/dd/yyyy HH:mm:ss")
+	public Date endTime;
+
+	public String currency = "USD";
 
 	public String address;
 
@@ -25,12 +32,15 @@ public class Event extends Model {
 
 	public static Finder<Long, Event> find = new Finder<Long,Event>(Event.class);
 
-	public Event(String eventTitle, Date eventStartTime, String eventAddress){
-		this.title = eventTitle;
-		this.startTime = eventStartTime;
-		this.address = eventAddress;
+
+	public Event(String title, Date startTime, Date endTime, String address, String currency){
+		this.title = title;
+		this.startTime = startTime;
+		this.endTime = endTime;
+		this.address = address;
 		this.id = currentId;
-		currentId++;
+		this.currency=currency;
+
 	}
 
 }
