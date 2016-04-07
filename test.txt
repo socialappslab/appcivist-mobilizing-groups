@@ -1,0 +1,14 @@
+{
+    "name":{
+	"html":"Test_event_1"
+    },
+    "start":{
+	"utc":"2016/07/08 11:00:00",
+        "timezone":"America/Cancun"
+    },
+    "end":{
+        "utc":"2016/08/07 11:00:00",
+        "timezone":"America/Cancun"
+    },
+    "currency":"USD"
+}    

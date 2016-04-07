@@ -7,16 +7,17 @@ import models.*;
 public class Database{
 
 	public static List<Event> getEvents(){
-		return null;
+		return Event.find.all();
 	} 
 
 	public static Event getEvent(Long id){
-		return null;
+		return Event.find.byId(id);
 	}
-
-	public static Event addEvent(Event toAdd){
-		return null;
-	}
+	
+	/* Deleted this method because using Ebean any new event will be added to the table automatically */
+	// public static Event addEvent(Event toAdd){
+	// 	return null;
+	// }
 
 	public static Event deleteEvent(Long id){
 		return null;

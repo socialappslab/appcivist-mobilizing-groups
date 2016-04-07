@@ -11,24 +11,26 @@ import java.lang.Object;
 @Entity
 public class Event extends Model {
 
+	private static long currentId = 1;
 	@Constraints.Required
 	public String title;
 
-	@Formats.DateTime(pattern="MM/dd/yyyy")
+	@Formats.DateTime(pattern="MM/dd/yyyy HH:mm:ss")
 	public Date startTime;
 
 	public String address;
 
 	@Id
-	private String id;
+	private long id;
 
 	public static Finder<Long, Event> find = new Finder<Long,Event>(Event.class);
 
-	public Event(String eventTitle, Date eventStartTime, String eventAddress, String eventId){
+	public Event(String eventTitle, Date eventStartTime, String eventAddress){
 		this.title = eventTitle;
 		this.startTime = eventStartTime;
 		this.address = eventAddress;
-		this.id = eventId;
+		this.id = currentId;
+		currentId++;
 	}
 
 }
