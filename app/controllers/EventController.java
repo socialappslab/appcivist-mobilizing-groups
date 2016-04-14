@@ -33,7 +33,7 @@ public class EventController extends Controller {
     public static Result getEvent(Long id)
     {
         Event Event = Database.getEvent(id);
-        // todo: instead of using "Database", just add proper annotations and methods to the model Event
+        // todo: instead of using "Database", just add proper annotations and method to the model Event
         return Event == null ? notFound() : ok(Json.toJson(Event));
     }
 

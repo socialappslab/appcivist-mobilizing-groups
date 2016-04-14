@@ -11,6 +11,8 @@ import java.lang.Object;
 @Entity
 public class Task extends Model {
 
+    //TODO: a creator and workers, ie the people the task is assigned to
+
     private UUID uuid;
 
     @Constraints.Required
