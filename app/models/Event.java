@@ -1,6 +1,7 @@
 package models;
 
 import javax.persistence.*;
+import com.avaje.ebean.annotation.*;
 import com.avaje.ebean.Model;
 import play.data.format.*;
 import play.data.validation.*;
@@ -11,8 +12,9 @@ import java.lang.Object;
 @Entity
 public class Event extends Model {
 
-	private static long currentId = 1;
-	//retrieve from backend
+	@Index
+	public UUID uuid;
+
 	@Constraints.Required
 	public String title;
 
@@ -27,9 +29,6 @@ public class Event extends Model {
 
 	public String address;
 
-	@Id
-	private long id;
-
 	public static Finder<Long, Event> find = new Finder<Long,Event>(Event.class);
 
 
@@ -38,9 +37,7 @@ public class Event extends Model {
 		this.startTime = startTime;
 		this.endTime = endTime;
 		this.address = address;
-		this.id = currentId;
-		this.currency=currency;
-
+		this.currency = currency;
+		this.uuid = UUID.randomUUID();
 	}
-
 }

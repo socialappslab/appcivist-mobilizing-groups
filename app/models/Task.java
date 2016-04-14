@@ -2,7 +2,6 @@ package models;
 
 import javax.persistence.*;
 import com.avaje.ebean.Model;
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import play.data.format.*;
 import play.data.validation.*;
 import java.util.*;
@@ -12,8 +11,8 @@ import java.lang.Object;
 @Entity
 public class Task extends Model {
 
-    private static long currentId = 1;
-    //retrieve from backend?
+    private UUID uuid;
+
     @Constraints.Required
     public String title;
 
@@ -21,7 +20,7 @@ public class Task extends Model {
     public Date deadline;
 
     public String details;
-    public Boolean isComplete = false;
+    public Boolean isComplete;
 
     @Id
     private long id;
@@ -29,12 +28,12 @@ public class Task extends Model {
     public static Finder<Long, Task> find = new Finder<Long,Task>(Task.class);
 
 
-    public Task(String title, Date deadline, String details, Boolean isComplete){
+    public Task(String title, Date deadline, String details){
         this.title = title;
         this.deadline = deadline;
-        this.isComplete = isComplete;
-        this.id = currentId;
-
+        this.details = details;
+        this.isComplete = false;
+        this.uuid = UUID.randomUUID();
     }
 
 }
