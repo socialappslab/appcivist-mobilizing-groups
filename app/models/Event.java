@@ -12,9 +12,9 @@ import java.lang.Object;
 public class Event extends Model {
 
 	private static long currentId = 1;
+	//retrieve from backend
 	@Constraints.Required
 	public String title;
-
 
 	@Formats.DateTime(pattern= "MM/dd/yyyy HH:mm:ss")
 
