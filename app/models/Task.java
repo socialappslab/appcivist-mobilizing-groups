@@ -11,8 +11,6 @@ import java.lang.Object;
 @Entity
 public class Task extends Model {
 
-    //TODO: a creator and workers, ie the people the task is assigned to
-
     private UUID uuid;
 
     @Constraints.Required
@@ -20,6 +18,8 @@ public class Task extends Model {
 
     @Formats.DateTime(pattern= "MM/dd/yyyy HH:mm:ss")
     public Date deadline;
+
+    public User assignedTo; //find where User class is
 
     public String details;
     public Boolean isComplete;
@@ -30,12 +30,13 @@ public class Task extends Model {
     public static Finder<Long, Task> find = new Finder<Long,Task>(Task.class);
 
 
-    public Task(String title, Date deadline, String details){
+    public Task(String title, Date deadline, String details, User assignedTo){
         this.title = title;
         this.deadline = deadline;
         this.details = details;
         this.isComplete = false;
         this.uuid = UUID.randomUUID();
+        this.assignedTo = assignedTo;
     }
 
 }
