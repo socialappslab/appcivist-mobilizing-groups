@@ -12,7 +12,7 @@ import java.lang.Object;
  * This controller contains an action to handle HTTP requests
  * to the application's home page.
  */
-public class EventController extends Controller {
+public class TaskController extends Controller {
 
     /**
      * An action that renders an HTML page with a welcome message.
@@ -24,36 +24,36 @@ public class EventController extends Controller {
         return ok(index.render("Your new application is ready."));
     }
 
-    public static Result getEvents()
+    public static Result getTasks()
     {
-        List<Event> Events = Event.find.all();
-        return ok(Json.toJson(Events));
+        List<Task> Tasks = Database.getTasks();
+        return ok(Json.toJson(Tasks));
     }
 
-    public static Result getEvent(Long id)
+    public static Result getTask(Long id)
     {
-        Event event = Event.find.byId(id);
-        // todo: instead of using "Database", just add proper annotations and method to the model Event
-        return event == null ? notFound() : ok(Json.toJson(event));
+        Task Task = Database.getTask(id);
+        // todo: instead of using "Database", just add proper annotations and method to the model Task
+        return Task == null ? notFound() : ok(Json.toJson(Task));
     }
 
-    public static Result createEvent()
+    public static Result createTask()
     {
-        Event newEvent = Json.fromJson(request().body().asJson(), Event.class);
-        Event inserted = Database.addEvent(newEvent);
+        Task newTask = Json.fromJson(request().body().asJson(), Task.class);
+        Task inserted = Database.addTask(newTask);
         return created(Json.toJson(inserted));
     }
 
-    public static Result updateEvent(Long id)
+    public static Result updateTask(Long id)
     {
-        Event Event = Json.fromJson(request().body().asJson(), Event.class);
-        Event updated = Database.updateEvent(id, Event);
+        Task Task = Json.fromJson(request().body().asJson(), Task.class);
+        Task updated = Database.updateTask(id, Task);
         return ok(Json.toJson(updated));
     }
 
-    public static Result deleteEvent(Long id)
+    public static Result deleteTask(Long id)
     {
-        Database.deleteEvent(id);
+        Database.deleteTask(id);
         return noContent(); // http://stackoverflow.com/a/2342589/1415732
     }
 
