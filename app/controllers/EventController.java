@@ -8,6 +8,8 @@ import views.html.*;
 import models.*;
 import java.util.*;
 import java.lang.Object;
+import com.avaje.ebean.Ebean;
+
 /**
  * This controller contains an action to handle HTTP requests
  * to the application's home page.
@@ -26,35 +28,38 @@ public class EventController extends Controller {
 
     public static Result getEvents()
     {
-        List<Event> Events = Event.find.all();
+        List<Event> Events = Event.getEvents();
         return ok(Json.toJson(Events));
     }
 
     public static Result getEvent(Long id)
     {
-        Event event = Event.find.byId(id);
-        // todo: instead of using "Database", just add proper annotations and method to the model Event
-        return event == null ? notFound() : ok(Json.toJson(event));
+        Event someEvent = Event.getEvent(id);
+        return someEvent == null ? notFound() : ok(Json.toJson(someEvent));
     }
 
-    public static Result createEvent()
+    public static Result createEvent(Long id)
     {
+        //what is newAssemblyForm and how do we do it for Event?
         Event newEvent = Json.fromJson(request().body().asJson(), Event.class);
-        Event inserted = Database.addEvent(newEvent);
+        Event inserted = Database.createEvent(id, newEvent);
         return created(Json.toJson(inserted));
     }
 
     public static Result updateEvent(Long id)
     {
-        Event Event = Json.fromJson(request().body().asJson(), Event.class);
-        Event updated = Database.updateEvent(id, Event);
+        //what is newAssemblyForm and how do we do it for Event?
+        Event someEvent = Json.fromJson(request().body().asJson(), Event.class);
+        Event.//what update type?
+        //Event updated = Database.updateEvent(id, someEvent);
         return ok(Json.toJson(updated));
     }
 
     public static Result deleteEvent(Long id)
     {
-        Database.deleteEvent(id);
-        return noContent(); // http://stackoverflow.com/a/2342589/1415732
+        Ebean.beginTransaction(); //this is optional for single actions, but good practice
+        Event.delete(id);
+        return ok();
     }
 
 }

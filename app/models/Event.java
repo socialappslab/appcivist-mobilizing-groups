@@ -8,6 +8,7 @@ import play.data.validation.*;
 import java.util.*;
 import java.awt.*;
 import java.lang.Object;
+import java.util.List;
 
 @Entity
 public class Event extends Model {
@@ -39,5 +40,17 @@ public class Event extends Model {
 		this.address = address;
 		this.currency = currency;
 		this.uuid = UUID.randomUUID();
+	}
+
+	public static List<Event> getEvents(){
+		return find.all();
+	}
+
+	public static Event getEvent(Long id){
+		return find.byId(id);
+	}
+
+	public static void delete(Long id) {
+		find.ref(id).delete();
 	}
 }

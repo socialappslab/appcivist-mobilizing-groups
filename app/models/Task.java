@@ -7,6 +7,7 @@ import play.data.validation.*;
 import java.util.*;
 import java.awt.*;
 import java.lang.Object;
+import java.util.List;
 
 @Entity
 public class Task extends Model {
@@ -19,7 +20,7 @@ public class Task extends Model {
     @Formats.DateTime(pattern= "MM/dd/yyyy HH:mm:ss")
     public Date deadline;
 
-    public User assignedTo; //find where User class is
+    public User assignedTo; //find User class
 
     public String details;
     public Boolean isComplete;
@@ -38,5 +39,17 @@ public class Task extends Model {
         this.uuid = UUID.randomUUID();
         this.assignedTo = assignedTo;
     }
+
+
+    public static List<Task> getTasks(){
+        return find.all();
+    }
+
+    public static Task getTask(Long id){
+        return find.byId(id);
+    }
+
+    public static void delete(Long id) {
+        find.ref(id).delete();
 
 }
