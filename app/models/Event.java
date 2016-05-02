@@ -1,11 +1,9 @@
 package models;
 
 import javax.persistence.*;
-<<<<<<< HEAD
 
-=======
 import com.avaje.ebean.annotation.*;
->>>>>>> 939c28ad71587d4aed208579a605a661dddab338
+
 import com.avaje.ebean.Model;
 import com.avaje.ebean.annotation.Index;
 
@@ -15,7 +13,6 @@ import play.data.validation.*;
 import java.util.*;
 import java.awt.*;
 import java.lang.Object;
-<<<<<<< HEAD
 import java.util.UUID;
 
 import enums.EventRegisterTypes;
@@ -25,9 +22,8 @@ import play.mvc.*;
 import play.libs.ws.*;
 import java.util.concurrent.CompletionStage;
 import javax.inject.Inject;
-=======
 import java.util.List;
->>>>>>> 939c28ad71587d4aed208579a605a661dddab338
+
 
 @Entity
 public class Event extends Model {
@@ -108,11 +104,11 @@ public class Event extends Model {
 		request = request.setQueryParameter("event.end.timezone",this.timezone);
 		
 	}
-	
+
 	public static List<Event> getEvents(){
 		return find.all();
 	}
-	/* Share event? Frontend or Backend? */
+	/* Share event. Enable service of sending emails? */
 
 	public static Event getEvent(Long id){
 		return find.byId(id);
