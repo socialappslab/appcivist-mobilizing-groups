@@ -8,6 +8,8 @@ import views.html.*;
 import models.*;
 import java.util.*;
 import java.lang.Object;
+import com.avaje.ebean.Ebean;
+
 /**
  * This controller contains an action to handle HTTP requests
  * to the application's home page.
@@ -28,37 +30,39 @@ public class EventController extends Controller {
 
     public static Result getEvents(UUID aid)
     {
-        List<Event> Events = Event.find.all();
+        List<Event> Events = Event.getEvents();
         return ok(Json.toJson(Events));
     }
 
     public static Result getEvent(Long id)
     {
-        Event Event = Event.find.byId(id);
-        // todo: instead of using "Database", just add proper annotations and methods to the model Event
-        return Event == null ? notFound() : ok(Json.toJson(Event));
+
+        Event someEvent = Event.getEvent(id);
+        return someEvent == null ? notFound() : ok(Json.toJson(someEvent));
     }
 
-    public static Result createEvent(UUID aid, UUID uid)
+    public static Result createEvent(Long id)
     {
-        /* Query Parsing for arguments */
-        User creator = User.findByAuthUserIdentity(PlayAuthenticate.getUser(session()));
-        final Form<AssemblyTransfer> newEventForm = ASSEMBLY_TRANSFER_FORM.bindFromRequest();
+        //what is newAssemblyForm and how do we do it for Event?
         Event newEvent = Json.fromJson(request().body().asJson(), Event.class);
-        return created(Json.toJson(newEvent));
+        Event inserted = Database.createEvent(id, newEvent);
+        return created(Json.toJson(inserted));
     }
 
     public static Result updateEvent(Long id, UUID aid, UUID uid)
     {
-        /* Query Parsing for arguments */
-        Event event = Json.fromJson(request().body().asJson(), Event.class);
-        return ok(Json.toJson(event));
+        //what is newAssemblyForm and how do we do it for Event?
+        Event someEvent = Json.fromJson(request().body().asJson(), Event.class);
+        Event.//what update type?
+        //Event updated = Database.updateEvent(id, someEvent);
+        return ok(Json.toJson(updated));
     }
 
     public static Result deleteEvent(Long id, UUID aid, UUID uid)
     {
-        find.ref(id).delete();
-        return noContent(); // http://stackoverflow.com/a/2342589/1415732
+        Ebean.beginTransaction(); //this is optional for single actions, but good practice
+        Event.delete(id);
+        return ok();
     }
 
 }
