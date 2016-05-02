@@ -13,6 +13,8 @@ import com.avaje.ebean.Ebean;
 /**
  * This controller contains an action to handle HTTP requests
  * to the application's home page.
+ *
+ * TODO: create and update... take a look at Assembly.java
  */
 public class EventController extends Controller {
 
@@ -43,7 +45,7 @@ public class EventController extends Controller {
 
     public static Result createEvent(Long id)
     {
-        //what is newAssemblyForm and how do we do it for Event?
+        //TODO: incomplete
         Event newEvent = Json.fromJson(request().body().asJson(), Event.class);
         Event inserted = Database.createEvent(id, newEvent);
         return created(Json.toJson(inserted));
@@ -51,10 +53,9 @@ public class EventController extends Controller {
 
     public static Result updateEvent(Long id, UUID aid, UUID uid)
     {
-        //what is newAssemblyForm and how do we do it for Event?
+        //TODO: incomplete
         Event someEvent = Json.fromJson(request().body().asJson(), Event.class);
-        Event.//what update type?
-        //Event updated = Database.updateEvent(id, someEvent);
+        Event updated = Database.updateEvent(id, someEvent);
         return ok(Json.toJson(updated));
     }
 

@@ -41,6 +41,11 @@ public class Event extends Model {
 	@Required @Formats.DateTime(pattern= "MM/dd/yyyy HH:mm:ss")
 	public Date endTime;
 
+	/**
+	 * TODO: make currency adaptive
+	 * right now, it's USD by default
+	 * You can use address info to get the 3 digit ISO code
+	 */
 	public String currency = "USD";
 
 	public String address;
@@ -49,7 +54,7 @@ public class Event extends Model {
 	public UUID creatorId;
 
 
-	/* To add: public User creator, public List<User> participants, public Assembly assembly */
+	/* TODO add: public User creator, public List<User> participants, public Assembly assembly */
 
 	@Index
 	private UUID uuid = UUID.randomUUID();
@@ -68,6 +73,7 @@ public class Event extends Model {
 
 	private String eventbriteToken;
 
+	//TODO: make timezone adaptive based on address, as with currency above
 	public String timezone = "America/Los_Angeles";
 
 	public Event(String title, Date startTime, Date endTime, String address, String currency, UUID creator, String token){
@@ -108,7 +114,7 @@ public class Event extends Model {
 	public static List<Event> getEvents(){
 		return find.all();
 	}
-	/* Share event. Enable service of sending emails? */
+	/* TODO: Share event. Enable service of sending emails? */
 
 	public static Event getEvent(Long id){
 		return find.byId(id);

@@ -9,6 +9,10 @@ import java.awt.*;
 import java.lang.Object;
 import java.util.List;
 
+/**
+ * TODO: See Event.java
+ */
+
 @Entity
 public class Task extends Model {
 

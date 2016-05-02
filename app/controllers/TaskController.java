@@ -11,6 +11,9 @@ import java.lang.Object;
 /**
  * This controller contains an action to handle HTTP requests
  * to the application's home page.
+ *
+ * TODO: see EventController.java
+ *
  */
 public class TaskController extends Controller {
 
@@ -26,7 +29,7 @@ public class TaskController extends Controller {
         return ok(index.render("Your new application is ready."));
     }
 
-    public static Result getTasks(UUID aid)
+    public static Result getTasks(UUID id)
     {
         List<Task> Tasks = Task.getTasks();
         return ok(Json.toJson(Tasks));
@@ -41,7 +44,7 @@ public class TaskController extends Controller {
 
     public static Result createTask(Long id)
     {
-        //what is newAssemblyForm and how do we do it for Task?
+        //TODO: incomplete
         Task newTask = Json.fromJson(request().body().asJson(), Task.class);
         Task inserted = Database.createTask(id, newTask);
         return created(Json.toJson(inserted));
@@ -49,10 +52,9 @@ public class TaskController extends Controller {
 
     public static Result updateTask(Long id, UUID aid, UUID uid)
     {
-        //what is newAssemblyForm and how do we do it for Task?
+        //TODO: incomplete
         Task someTask = Json.fromJson(request().body().asJson(), Task.class);
-        Task.//what update type?
-        //Task updated = Database.updateTask(id, someTask);
+        Task.Database.updateTask(id, someTask);
         return ok(Json.toJson(updated));
     }
 

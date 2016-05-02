@@ -13,6 +13,12 @@ import java.awt.*;
 import java.lang.Object;
 import java.util.UUID;
 
+/**
+ * TODO: ResourceSpace implementation for mobilizing-groups
+ * (take a look at how Appcivist-Platform does it)
+ * Assembly and ResourceSpace have @OneToOne relationship,
+ * ResourceSpace and Task/Event/URLs have @OneToMany
+ */
 
 
 @Entity
