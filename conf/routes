@@ -12,8 +12,8 @@ GET     /message                    controllers.AsyncController.message
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
-#GET     /events                     controllers.EventController.getEvents
+#GET     /events/:aid                controllers.EventController.getEvents(aid:UUID)
 #GET     /events/:id                 controllers.EventController.getEvent(id: Long)
-#POST    /events                     controllers.EventController.createEvent
-#PUT     /events/:id                 controllers.EventController.updateEvent(id: Long)
-#DELETE  /events/:id                 controllers.EventController.deleteEvent(id: Long)
+#POST    /events/:aid/:uid           controllers.EventController.createEvent(aid:UUID, uid:UUID)
+#PUT     /events/:id/:aid/:uid       controllers.EventController.updateEvent(id: Long, aid:UUID, uid:UUID)
+#DELETE  /events/:id/:aid/:uid       controllers.EventController.deleteEvent(id: Long, aid:UUID, uid:UUID)
